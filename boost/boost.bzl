@@ -63,5 +63,4 @@ def boost_deps():
     build_file = "@com_github_nelhage_boost//:BUILD.boost",
     type = "tar.gz",
     strip_prefix = "boost_1_63_0/",
-    sha256 = "fe34a4e119798e10b8cc9e565b3b0284e9fd3977ec8a1b19586ad1dec397088b",
   )
