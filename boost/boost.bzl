@@ -59,9 +59,9 @@ def boost_library(name, defines=None, includes=None, hdrs=None, srcs=None, deps=
 def boost_deps():
   native.new_http_archive(
     name = "boost",
-    url = "https://superb-dca2.dl.sourceforge.net/project/boost/boost/1.63.0/boost_1_63_0.tar.bz2",
+    url = "http://scratch.solidangle.ca/boost.tar.gz",
     build_file = "@com_github_nelhage_boost//:BUILD.boost",
-    type = "tar.bz2",
+    type = "tar.gz",
     strip_prefix = "boost_1_63_0/",
     sha256 = "beae2529f759f6b3bf3f4969a19c2e9d6f0c503edcb2de4a61d1428519fcb3b0",
   )
